@@ -1,0 +1,28 @@
+{
+	"name": "@yuler/test-semantic-release",
+	"version": "0.0.0-development",
+	"description": "test semantic release",
+	"main": "index.js",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/yuler/test-semantic-release.git"
+	},
+	"keywords": [
+		"test",
+		"semantic-release"
+	],
+	"author": "yuler",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/yuler/test-semantic-release/issues"
+	},
+	"homepage": "https://github.com/yuler/test-semantic-release#readme",
+	"scripts": {
+		"test": "echo \"test\""
+	},
+	"devDependencies": {
+		"@yuler/prettier-config": "^0.1.0"
+	},
+	"prettier": "@yuler/prettier-config"
+}
