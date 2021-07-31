@@ -3,6 +3,9 @@
 	"version": "0.0.0-development",
 	"description": "test semantic release",
 	"main": "index.js",
+	"files": [
+		"index.js"
+	],
 	"type": "module",
 	"repository": {
 		"type": "git",
