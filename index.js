@@ -1,3 +1,3 @@
 export default function () {
-	console.log('semantic release 1.2.0')
+	console.log('semantic release @next')
 }

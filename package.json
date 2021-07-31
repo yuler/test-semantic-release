@@ -30,5 +30,26 @@
 	"devDependencies": {
 		"@yuler/prettier-config": "^0.1.0"
 	},
-	"prettier": "@yuler/prettier-config"
+	"prettier": "@yuler/prettier-config",
+	"release": {
+		"branches": [
+			"+([0-9])?(.{+([0-9]),x}).x",
+			"master",
+			"main",
+			"next",
+			"next-major",
+			{
+				"name": "next",
+				"channel": "next"
+			},
+			{
+				"name": "beta",
+				"prerelease": true
+			},
+			{
+				"name": "alpha",
+				"prerelease": true
+			}
+		]
+	}
 }
