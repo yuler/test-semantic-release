@@ -30,5 +30,24 @@
 	"devDependencies": {
 		"@yuler/prettier-config": "^0.1.0"
 	},
-	"prettier": "@yuler/prettier-config"
+	"prettier": "@yuler/prettier-config",
+	"release": {
+		"plugins": [
+			[
+				"@semantic-release/commit-analyzer",
+				{
+					"preset": "angular",
+					"releaseRules": [
+						{
+							"type": "docs",
+							"release": "patch"
+						}
+					]
+				}
+			],
+			"@semantic-release/release-notes-generator",
+			"@semantic-release/npm",
+			"@semantic-release/github"
+		]
+	}
 }

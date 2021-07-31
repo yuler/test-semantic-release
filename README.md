@@ -27,6 +27,24 @@
 				"name": "alpha",
 				"prerelease": true
 			}
+		],
+		"plugins": [
+			[
+				"@semantic-release/commit-analyzer",
+				{
+					"preset": "angular",
+					"releaseRules": [
+						{"type": "refactor", "release": false},
+						{"type": "style", "release": "patch"},
+						{"scope": "no-release", "release": false},
+						{"scope": "cli", "release": "patch"},
+						{"scope": "patch", "release": "patch"}
+					]
+				}
+			],
+			"@semantic-release/release-notes-generator",
+			"@semantic-release/npm",
+			"@semantic-release/github"
 		]
 	}
 }
