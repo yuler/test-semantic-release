@@ -18,6 +18,9 @@
 		"url": "https://github.com/yuler/test-semantic-release/issues"
 	},
 	"homepage": "https://github.com/yuler/test-semantic-release#readme",
+	"publishConfig": {
+		"access": "public"
+	},
 	"scripts": {
 		"test": "echo \"test\""
 	},
