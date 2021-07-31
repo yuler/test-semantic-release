@@ -1,3 +1,3 @@
 export default function () {
-	console.log('semantic release alpha')
+	console.log('semantic release alpha2')
 }
