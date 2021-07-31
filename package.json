@@ -21,14 +21,11 @@
 		"url": "https://github.com/yuler/test-semantic-release/issues"
 	},
 	"homepage": "https://github.com/yuler/test-semantic-release#readme",
-	"publishConfig": {
-		"access": "public"
-	},
 	"scripts": {
 		"test": "echo \"test\""
 	},
 	"devDependencies": {
-		"@yuler/prettier-config": "^0.1.0"
+		"@yuler/prettier-config": "^0.4.0"
 	},
 	"prettier": "@yuler/prettier-config",
 	"release": {
